@@ -9,8 +9,8 @@ import { DrugService } from './service/drug.service';
 export class AppComponent {
   title = 'drugstore';
   constructor(
-    private drugService: DrugService,
+    //private drugService: DrugService,
   ) {
-    drugService.getAll().subscribe(console.log);
+    //drugService.getAll().subscribe(console.log);
    }
 }

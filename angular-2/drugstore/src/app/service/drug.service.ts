@@ -9,7 +9,7 @@ import { Drug } from '../model/drug';
 })
 export class DrugService {
 
-  endPoint: string = 'drugs/';
+  endPoint: string = 'drugs';
 
   constructor(
     private http: HttpClient
